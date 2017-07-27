@@ -14,6 +14,7 @@ class KotlinViewActivity : Activity() {
         @JvmStatic
         fun l(str: String) {
             Log.i("KotlinView", str)
+            println()
         }
     }
 
