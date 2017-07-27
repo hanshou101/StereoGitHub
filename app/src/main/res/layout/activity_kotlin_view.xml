@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/contentView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <!--<www.art.edu.kotlinview.StereoView-->
+    <!--android:id="@+id/stereo_view"-->
+    <!--android:layout_width="600dp"-->
+    <!--android:layout_height="300dp"-->
+    <!--android:layout_centerInParent="true">-->
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#440000"-->
+    <!--android:gravity="center"-->
+    <!--android:text="0"-->
+    <!--android:textColor="#FFFAF0"-->
+    <!--android:textSize="60sp"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#004400"-->
+    <!--android:gravity="center"-->
+    <!--android:text="1"-->
+    <!--android:textColor="#FFFAF0"-->
+    <!--android:textSize="60sp"-->
+
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#000044"-->
+    <!--android:gravity="center"-->
+    <!--android:text="2"-->
+    <!--android:textColor="#FFFAF0"-->
+    <!--android:textSize="60sp"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#444444"-->
+    <!--android:gravity="center"-->
+    <!--android:text="3"-->
+    <!--android:textColor="#FFFAF0"-->
+    <!--android:textSize="60sp"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#DAA520"-->
+    <!--android:gravity="center"-->
+    <!--android:text="4"-->
+    <!--android:textColor="#FFFAF0"-->
+    <!--android:textSize="60sp"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#DEB887"-->
+    <!--android:gravity="center"-->
+    <!--android:text="5"-->
+    <!--android:textColor="#FFFAF0"-->
+    <!--android:textSize="60sp"-->
+    <!--/>-->
+
+
+    <!--</www.art.edu.kotlinview.StereoView>-->
+
+    <www.art.edu.kotlinview.viewgroup.RTLayout
+        android:id="@+id/rtlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="100px">
+
+        <www.art.edu.kotlinview.dispatch.RTButton
+            android:id="@+id/rtbutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </www.art.edu.kotlinview.viewgroup.RTLayout>
+
+
+</RelativeLayout>
